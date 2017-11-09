@@ -18,6 +18,14 @@
   "homepage": "https://github.com/vitorrios1001/nodeJS#readme",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "mysql": "github:mysqljs/mysql",
+    "node-mysql": "^0.4.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Site",
+    "de",
+    "Noticias"
+  ]
 }
