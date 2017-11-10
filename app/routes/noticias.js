@@ -16,11 +16,11 @@ module.exports = function(app){
         });
         
         con.query('select * from noticias',function(error, result){
-            res.send(result);
+            res.render("noticias/noticias", {noticias : result});
         });      
        
        
-        res.render('noticias/noticias');
+        //res.render('noticias/noticias');
     });
 
     
